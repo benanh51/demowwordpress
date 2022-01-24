@@ -1,0 +1,19 @@
+{
+	"autoload": {
+		"files": [
+			"inc/helpers/constant.php",
+			"inc/helpers/conditional.php",
+			"inc/helpers/template-tags.php",
+			"vendor/aristath/kirki/kirki.php"
+		],
+		"psr-4": {
+			"wpcmart\\": "inc"
+		}
+	},
+	"require": {
+		"tgmpa/tgm-plugin-activation": "^2.6.1",
+		"aristath/kirki": "3.1.7"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}

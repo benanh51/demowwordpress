@@ -1,0 +1,281 @@
+/*
+Theme Name: Shopping Solution
+Theme URI: https://www.buywptemplates.com/free-shopping-wordpress-theme
+Author: Buywptemplates
+Author URI: https://www.buywptemplates.com
+Description: Shopping Solution is a simple and multipurpose theme that can be used to build websites for e-commerce, beauty, fashion, smart home products, selfie drones, novelty shops, toy shops, gadgets stores, jewelery shops, easy digital download shopping cart, storefront, portfolio, boutique, fashion store, online food order platforms, and many more. This theme is responsive, elegant, and has many other features. Using this theme, you can develop a website easily and effectively with less time and it is finely designed to meet your needs. This theme is providing options like WooCommerce integration, adaptable, user-friendly, translation ready, Gutenberg ready, typography options, also smooth customization in every aspect of your website. With this theme, you also have features like SEO-friendly and mobile-friendly that can help to get more visitors and can be accessed easily from anywhere. In short, Shopping Solution will surely help you to grow and expand your business in all possible ways. View full demo here: https://www.buywptemplates.com/bwt-shopping-solution
+Tested up to: 5.8
+Requires PHP: 7.2
+Version: 0.1.2
+license: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl.html
+Text Domain: shopping-solution
+Template: ecommerce-solution
+Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-columns, grid-layout, flexible-header, wide-blocks, block-styles, custom-background, custom-logo, custom-menu, custom-header, editor-style, featured-images, footer-widgets, sticky-post, full-width-template, theme-options, threaded-comments, post-formats, translation-ready, rtl-language-support, blog, e-commerce, food-and-drink
+*/
+
+body, h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: bold;
+	color: #000000;
+}
+body{
+	color: #878787;
+}
+a{
+	text-decoration: none;
+}
+
+.footer-wp input[type="submit"], 
+.footer-wp button, 
+#sidebar button,
+.topbar,
+.primary-navigation ul ul a:hover, 
+.primary-navigation ul ul a:focus,
+#sidebar h3:after,
+.pagination a:hover, 
+#sidebar .tagcloud a:hover, 
+.footer-wp .tagcloud a:hover, 
+#sidebar input[type="submit"]:hover, 
+.nav-next a:hover, 
+.nav-previous a:hover, 
+.more-btn a:hover, 
+#slider .carousel-control-prev-icon:hover, 
+#slider .carousel-control-next-icon:hover,
+#scrollbutton i,
+.copyright-wrapper,
+.footer-wp h3:after,
+.woocommerce #respond input#submit, 
+.woocommerce a.button, 
+.woocommerce button.button, 
+.woocommerce input.button, 
+.woocommerce #respond input#submit.alt, 
+.woocommerce a.button.alt, 
+.woocommerce button.button.alt, 
+.woocommerce input.button.alt,
+.woocommerce span.onsale,
+#comments a.comment-reply-link,
+#comments input[type="submit"].submit,
+.blog-section h2:after,
+.pagination .current,
+nav.woocommerce-MyAccount-navigation ul li,
+.tags a:hover,
+.widget_calendar tbody a, .page-content .read-moresec a.button,
+input[type="submit"], .woocommerce nav.woocommerce-pagination ul li a, .woocommerce nav.woocommerce-pagination ul li span{
+	background: #2bbef9;
+}
+.nav-previous a:hover, 
+.nav-next a:hover, 
+#sidebar .textwidget p a:hover, 
+.footer-wp .textwidget p a, 
+.footer-wp a.rsswidget, 
+.footer-wp li a:hover, 
+#sidebar .custom_read_more a:hover, 
+.footer-wp .custom_read_more a, 
+.navigation.post-navigation a:hover, 
+.metabox a:hover, 
+.blog-section h2 a:hover, 
+.postbtn a:hover, 
+#blog_sec a:hover i, 
+td.product-name a:hover, 
+a.shipping-calculator-button:hover,
+.footer-wp h3,
+.metabox a:hover,
+.postbtn:hover i, td.product-name a,
+.social-links a:hover, .primary-navigation a:hover,
+.login-box a:hover, span.cart_no a:hover{
+	color: #2bbef9;
+}
+
+.entry-date:hover i, 
+.entry-date:hover a, 
+.entry-author:hover i, 
+.entry-author:hover a{
+	color: #2bbef9 !important;
+}
+
+#scrollbutton i,#blog_sec .sticky, .page-content .read-moresec a.button{
+	border-color: #2bbef9;
+}
+
+.pagination a:hover,
+.pagination .current, 
+#sidebar .textwidget a:hover, 
+.woocommerce .widget_price_filter .price_slider_amount .button:hover, 
+#sidebar h3.widget-title a.rsswidget, .copyright-wrapper p, 
+.copyright-wrapper a, .page-content .read-moresec a.button, 
+a.button, #sidebar .widget_calendar td a, 
+.widget_calendar tbody a,
+#sidebar input[type="submit"]:hover, 
+.widget_calendar caption, #comments a.comment-reply-link:hover, 
+#comments a.comment-reply-link, 
+#comments input[type="submit"].submit,
+.primary-navigation ul ul a:hover, 
+.primary-navigation ul ul a:focus, 
+.primary-navigation a, 
+a.r_button, input[type="submit"], 
+td.product-name a, a.shipping-calculator-button,
+nav.woocommerce-MyAccount-navigation ul li a,
+.woocommerce #respond input#submit, .woocommerce a.button,
+.woocommerce button.button, 
+.woocommerce input.button, 
+.woocommerce #respond input#submit.alt, 
+.woocommerce a.button.alt, 
+.woocommerce button.button.alt, 
+.woocommerce input.button.alt{
+	color: #fff;
+}
+#menu-menu1 {
+	text-align: left !important;
+}
+.topbar {
+	color: #fff;
+}
+.below-topbar,.menu-header{
+	border-bottom: solid 2px #cccccc;
+}
+.login-box a {
+    border: none;
+    border-radius: 0;
+    padding: 0;
+}
+.login-box i {
+    border: solid 1px #ccc;
+    background: transparent;
+}
+#header .fixed-header{
+	background: #fff !important;
+}
+.social-links a, span.cart_no a,.primary-navigation a{
+	color: #878787;
+}
+.below-topbar p,.login-box a,.social-links span,.social-links a,span.cart_no a {
+    font-size: 14px;
+}
+.cat-content{
+	background: #fff;
+    padding: 0 !important;
+    position: relative;
+}
+span.cart_no i{
+	background: #e9f8fe;
+	color: #2bbef9;
+	padding: 12px;
+	border-radius: 30px;
+}
+span.cart-value {
+    background: #000;
+    color: #fff;
+    border-radius: 30px;
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+	top: -5px;
+}
+.search-cat-box {
+    border: none;
+    border-radius: 10px;
+    background: #f1f1f1;
+}
+.search-cat-box input[type="search"]{
+	width: 90%;
+}
+p.site-description {
+    margin: 0;
+}
+.menu-header{
+	background: transparent !important;
+}
+.primary-navigation ul li,.border-cat {
+    border-right: none;
+}
+.border-cat button.product-btn {
+    background: #2bbef9;
+    padding: 12px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+.primary-navigation a{
+	padding: 0;
+}
+#slider .carousel-content{
+	border: none;
+}
+#slider img {
+    opacity: 0.7;
+    border-radius: 30px;
+}
+.home-sidebar {
+    padding: 0 !important;
+}
+#sidebar aside, 
+#sidebar .custom-about-us, 
+#sidebar .custom-contact-us,
+.inner-service {
+    border: none;
+    padding: 15px;
+    box-shadow: 0 0 10px 3px #ccc;
+    border-radius: 15px;
+}
+.blog-section h2,
+nav.woocommerce-MyAccount-navigation ul li a{
+	font-weight: bold;
+}
+.woocommerce #respond input#submit, 
+.woocommerce a.button, 
+.woocommerce button.button, 
+.woocommerce input.button, 
+.woocommerce #respond input#submit.alt, 
+.woocommerce a.button.alt, 
+.woocommerce button.button.alt, 
+.woocommerce input.button.alt{
+	border: none;
+}
+
+/* Media */
+@media screen and (max-width: 719px) and (min-width: 320px){
+	.below-topbar,
+	#header .logo{
+		text-align: center;
+	}
+	#header .logo{
+		width: 100%;
+		float: left;
+	}
+	.search-cat-box input[type="search"] {
+	    width: 80%;
+	}
+	.primary-navigation ul ul a:hover, .primary-navigation ul ul a:focus, .primary-navigation a{
+		color: #000;
+	}
+}
+@media screen and (max-width: 999px) and (min-width: 720px){
+	.topbar p, .topbar a.call1{
+		padding: 0 !important;
+	}
+	.border-cat{
+		padding: 0;
+	}
+	#new-collection strong{
+		font-size: 22px;
+	}
+}
+@media screen and (max-width: 1000px){
+	.topbar p,.cat-content{
+		display: block;
+	}
+	.cart_no{
+		background: transparent !important;
+	}
+	.border-cat{
+		border: none;
+	}
+	#header .logo{
+		text-align: center;
+		float: none;
+		width: 100%;
+	}
+}
